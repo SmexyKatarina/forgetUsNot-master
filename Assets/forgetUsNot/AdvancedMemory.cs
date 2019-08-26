@@ -66,6 +66,7 @@ public class AdvancedMemory : MonoBehaviour
             case ("Simon Says"): r = 800; break;
             case ("Wire Sequence"): r = 001; break;
             case ("Who's on First"): r = 123; break;
+            case ("Who’s on First"): r = 123; break;
             case ("Complicated Wires"): r = 002; break;
             case ("Color Flash"): r = 380; break;
             case ("Piano Keys"): r = 140; break;
@@ -86,7 +87,7 @@ public class AdvancedMemory : MonoBehaviour
             case ("Connection Check"): r = 240; break;
             case ("Letter Keys"): r = 203; break;
             case ("Forget Me Not"): r = 900; break;
-            case ("AStrology"): r = 770; break;
+            case ("Astrology"): r = 770; break;
             case ("Logic"): r = 110; break;
             case ("Crazy Talk"): r = 496; break;
             case ("Adventure Game"): r = 622; break;
@@ -299,6 +300,7 @@ public class AdvancedMemory : MonoBehaviour
             case ("Colorful Madness"): r = 384; break;
             case ("Bases"): r = 722; break;
             case ("Lion’s Share"): r = 665; break;
+            case ("Lion's Share"): r = 665; break;
             case ("Snooker"): r = 626; break;
             case ("Blackjack"): r = 543; break;
             case ("Party Time"): r = 649; break;
@@ -306,6 +308,7 @@ public class AdvancedMemory : MonoBehaviour
             case ("The Plunger Button"): r = 106; break;
             case ("The Digit"): r = 980; break;
             case ("The Jack-O’-Lantern"): r = 990; break;
+            case ("The Jack-O'-Lantern"): r = 990; break;
             case ("T-Words"): r = 161; break;
             case ("Divided Squares"): r = 910; break;
             case ("Connection Device"): r = 856; break;
@@ -356,6 +359,7 @@ public class AdvancedMemory : MonoBehaviour
             case ("Numbers"): r = 987; break;
             case ("Varicolored Squares"): r = 833; break;
             case ("Simon’s Stages"): r = 905; break;
+            case ("Simon's Stages"): r = 905; break;
             case ("Free Parking"): r = 638; break;
             case ("Cookie Jars"): r = 583; break;
             case ("Alchemy"): r = 512; break;
@@ -403,6 +407,7 @@ public class AdvancedMemory : MonoBehaviour
             case ("Wavetapping"): r = 452; break;
             case ("The Hypercube"): r = 842; break;
             case ("Stack’em"): r = 158; break;
+            case ("Stack'em"): r = 158; break;
             case ("Seven Wires"): r = 008; break;
             case ("Colored Keys"): r = 208; break;
             case ("The Troll"): r = 420; break;
@@ -411,6 +416,7 @@ public class AdvancedMemory : MonoBehaviour
             case ("Four-Card Monte"): r = 545; break;
             case ("The Witness"): r = 656; break;
             case ("The Giant’s Drink"): r = 613; break;
+            case ("The Giant's Drink"): r = 613; break;
             case ("Digit String"): r = 988; break;
             case ("Hidden Colors"): r = 387; break;
             case ("Colour Code"): r = 388; break;
@@ -486,6 +492,7 @@ public class AdvancedMemory : MonoBehaviour
             case ("Book of Mario"): r = 422; break;
             case ("Vigenère Cipher"): r = 159; break;
             case ("Langton’s Ant"): r = 340; break;
+            case ("Langton's Ant"): r = 340; break;
             case ("Old Fogey"): r = 341; break;
             case ("Insanagrams"): r = 163; break;
             case ("Alphabetize"): r = 164; break;
