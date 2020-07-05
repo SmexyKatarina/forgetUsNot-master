@@ -52,22 +52,30 @@ public class AdvancedMemory : MonoBehaviour
 
 
     //Codes stored in a switch case in the form 'case(module name):r = code;break;'
-    private int getCode(string  s)
+    private int getCode(string s)
     {
         int r;
-        switch(s)
+        switch (s)
         {
             case ("Wires"): r = 000; break;
             case ("The Button"): r = 100; break;
+            case ("The Button Translated"): r = 100; break;
+            case ("Big Button Translated"): r = 100; break;
             case ("Keypad"): r = 200; break;
             case ("Maze"): r = 300; break;
             case ("Memory"): r = 400; break;
             case ("Morse Code"): r = 500; break;
+            case ("Morse Code Translated"): r = 500; break;
             case ("Password"): r = 600; break;
+            case ("Passwords"): r = 600; break;
+            case ("Password Translated"): r = 600; break;
+            case ("Passwords Translated"): r = 600; break;
             case ("Simon Says"): r = 800; break;
             case ("Wire Sequence"): r = 001; break;
             case ("Who’s on First"): r = 123; break;
             case ("Who's on First"): r = 123; break;
+            case ("Who’s on First Translated"): r = 123; break;
+            case ("Who's on First Translated"): r = 123; break;
             case ("Complicated Wires"): r = 002; break;
             case ("Colour Flash"): r = 380; break;
             case ("Piano Keys"): r = 140; break;
@@ -219,6 +227,7 @@ public class AdvancedMemory : MonoBehaviour
             case ("The Hidden Value"): r = 996; break;
             case ("Directional Button"): r = 126; break;
             case ("…?"): r = 754; break;
+            case ("...?"): r = 754; break;
             case ("The Simpleton"): r = 098; break;
             case ("Misery Squares"): r = 911; break;
             case ("Not Wiresword"): r = 030; break;
@@ -261,6 +270,8 @@ public class AdvancedMemory : MonoBehaviour
             case ("Tic Tac Toe"): r = 620; break;
             case ("Monsplode, Fight!"): r = 641; break;
             case ("Shape Shift"): r = 840; break;
+            case ("Follow The Leader"): r = 432; break;
+            case ("Follow the Leader"): r = 432; break;
             case ("Friendship"): r = 660; break;
             case ("The Bulb"): r = 491; break;
             case ("Alphabet"): r = 205; break;
@@ -409,6 +420,7 @@ public class AdvancedMemory : MonoBehaviour
             case ("Exoplanets"): r = 765; break;
             case ("Simon Stages"): r = 815; break;
             case ("Stock Images"): r = 572; break;
+            case ("Forget Infinity"): r = 903; break;
             case ("Roger"): r = 562; break;
             case ("Malfunctions"): r = 697; break;
             case ("Minecraft Parody"): r = 333; break;
@@ -560,7 +572,7 @@ public class AdvancedMemory : MonoBehaviour
             case ("Neutrinos"): r = 285; break;
             case ("Musical Transposition"): r = 130; break;
             case ("Scavenger Hunt"): r = 332; break;
-            case ("Polygons"): r = 717; break;
+            case ("Polygons"): r = 755; break;
             case ("Ultimate Cipher"): r = 169; break;
             case ("Mashematics"): r = 704; break;
             case ("Faulty Backgrounds"): r = 472; break;
@@ -620,7 +632,6 @@ public class AdvancedMemory : MonoBehaviour
             case ("Stack'em"): r = 158; break;
             case ("Seven Wires"): r = 008; break;
             case ("Colored Keys"): r = 208; break;
-            case ("The Troll"): r = 420; break;
             case ("Planets"): r = 775; break;
             case ("The Necronomicon"): r = 994; break;
             case ("Four-Card Monte"): r = 545; break;
@@ -661,7 +672,7 @@ public class AdvancedMemory : MonoBehaviour
             case ("Green Arrows"): r = 051; break;
             case ("Codenames"): r = 606; break;
             case ("Blinkstop"): r = 190; break;
-            case ("Hinges"): r = 191; break;
+            case ("Hinges"): r = 756; break;
             case ("❖"): r = 410; break;
             case ("Answering Can Be Fun"): r = 629; break;
             case ("15 Mystic Lights"): r = 411; break;
@@ -709,7 +720,87 @@ public class AdvancedMemory : MonoBehaviour
             case ("Dimension Disruption"): r = 441; break;
             case ("V"): r = 414; break;
             case ("A Message"): r = 570; break;
-            default: r = 998;break;
+            case ("Lying Indicators"): r = 563; break;
+            case ("Training Text"): r = 514; break;
+            case ("Wonder Cipher"): r = 168; break;
+            case ("Caesar’s Math’s"): r = 122; break;
+            case ("Caesar's Math's"): r = 122; break;
+            case ("Random Access Memory"): r = 573; break;
+            case ("Triamonds"): r = 843; break;
+            case ("Stars"): r = 766; break;
+            case ("Button Order"): r = 096; break;
+            case ("Jukebox.WAV"): r = 884; break;
+            case ("Elder Password"): r = 599; break;
+            case ("Switching Maze"): r = 326; break;
+            case ("Mystery Module"): r = 902; break;
+            case ("Ladder Lottery"): r = 234; break;
+            case ("Co-op Harmony Sequence"): r = 133; break;
+            case ("Standard Crazy Talk"): r = 220; break;
+            case ("Quote Crazy Talk End Quote"): r = 221; break;
+            case ("Kilo Talk"): r = 222; break;
+            case ("Kay-Mazey Talk"): r = 223; break;
+            case ("Jaden Smith Talk"): r = 224; break;
+            case ("Deck Creating"): r = 547; break;
+            case ("Crazy Talk With A K"): r = 225; break;
+            case ("BoozleTalk"): r = 226; break;
+            case ("Arrow Talk"): r = 227; break;
+            case ("Siffron"): r = 233; break;
+            case ("Red Herring"): r = 420; break;
+            case ("Audio Morse"): r = 519; break;
+            case ("Palindromes"): r = 979; break;
+            case ("Pow"): r = 260; break;
+            case ("Type Racer"): r = 792; break;
+            case ("Chicken Nuggets"): r = 585; break;
+            case ("Badugi"): r = 548; break;
+            case ("Tetriamonds"): r = 844; break;
+            case ("Spot The Difference"): r = 422; break;
+            case ("Negativity"): r = 235; break;
+            case ("Masher The Bottun"): r = 423; break;
+            case ("Yes and No"): r = 236; break;
+            case ("M&Ns"): r = 237; break;
+            case ("Plant Identification"): r = 530; break;
+            case ("Integer Trees"): r = 717; break;
+            case ("Goofy’s Game"): r = 424; break;
+            case ("Module Rick"): r = 426; break;
+            case ("Pickup Identification"): r = 531; break;
+            case ("Earthbound"): r = 120; break;
+            case ("3 LEDs"): r = 416; break;
+            case ("Life Iteration"): r = 121; break;
+            case ("Thread The Needle"): r = 077; break;
+            case ("Encrypted Hangman"): r = 876; break;
+            case ("Accelerando"): r = 087; break;
+            case ("Color Braille"): r = 757; break;
+            case ("Remote Math"): r = 729; break;
+            case ("Reflex"): r = 933; break;
+            case ("hexOS"): r = 868; break;
+            case ("Simon Stashes"): r = 816; break;
+            case ("Kyudoku"): r = 678; break;
+            case ("Brawler Database"): r = 454; break;
+            case ("Shortcuts"): r = 867; break;
+            case ("More Code"): r = 518; break;
+            case ("7"): r = 417; break;
+            case ("Mental Math"): r = 699; break;
+            case ("Dictation"): r = 793; break;
+            case ("Bloxx"): r = 922; break;
+            case ("Basic Morse"): r = 517; break;
+            case ("The Arena"): r = 892; break;
+            case ("IPA"): r = 952; break;
+            case ("Emotiguy Identification"): r = 532; break;
+            case ("Cookie Clicker"): r = 586; break;
+            case ("Audio Keypad"): r = 213; break;
+            case ("100 Levels of Defusal"): r = 418; break;
+            case ("Jailbreak"): r = 923; break;
+            case ("Dumb Waiters"): r = 238; break;
+            case ("DACH Maze"): r = 325; break;
+            case ("Match ‘em"): r = 427; break;
+            case ("Match 'em"): r = 427; break;
+            case ("Match ’em"): r = 427; break;
+            case ("Navinums"): r = 924; break;
+            case ("Gnomish Puzzle"): r = 433; break;
+            case ("Bridges"): r = 443; break;
+            case ("A>N<D"): r = 419; break;
+            case ("Juxtacolored Squares"): r = 835; break;
+            default: r = 998; break;
         }
         return r;
     }
@@ -1025,6 +1116,7 @@ public class AdvancedMemory : MonoBehaviour
 
                 DisplayMesh.text = text;
             }*/
+            DisplayMesh.text = text;
         }
         else {
             DisplayMesh.text = "";
